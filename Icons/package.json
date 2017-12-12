@@ -1,0 +1,15 @@
+{
+  "name": "icons",
+  "version": "1.0.0",
+  "description": "Exercice sur les webfonts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucien CHASTAN",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-webfont": "^1.6.0"
+  }
+}

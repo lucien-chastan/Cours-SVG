@@ -12,13 +12,9 @@ Nous verrons ensuite comment intégrer le SVG dans le web, comment faire l'anime
 **Inkscape :**
 
 - [Les palettes de couleur](Palettes/README.md)
-- [Astuces de navigation](Navigation/README.md)
-- [Créer des maquettes](Templates/README.md)
-- [Créer des icônes et logos](Icons/README.md)
 
 **Le Web :**
-
-- Rendre le SVG responsive
+- [Créer une font à partir d'icône](Icons/README.md)
+- [Rendre le SVG responsive](Responive/README.md)
 - Quelques animations
-- Générer une fonte d'icône depuis des fichiers SVG avec Grunt
 
