@@ -1,5 +1,10 @@
 # Rendre les balises SVG responsive
 
+Vous avez deux méthodes pour ajouter du SVG dans votre page web :
+
+- Avec une balise image
+- Dans le DOM directement 
+
 Si le fichier SVG est intégré comme une image :
 
 ```html
@@ -8,7 +13,7 @@ Si le fichier SVG est intégré comme une image :
 
 Vous n'aurez pas de problème, cette image se comportera exactement comme une image `*.png` ou `*.jpg`, vous pouvez donc utiliser les méthodes que vous utiliseriez pour une balise <img> standard.
 
-C'est dans le cas de l'intégration du SVG directement dans le DOM avec les balises `<svg>` que ça va poser plus de problème. (ce que vous ferez certainement quand vous voudrez travailler sur le SVG en JavaScript par exemple)
+C'est dans le cas de l'intégration du SVG directement dans le DOM avec les balises `<svg>` que ça va poser plus de problème. *(ce que vous ferez certainement quand vous voudrez travailler sur le SVG en JavaScript par exemple)*
 
 ```html
 <svg>
