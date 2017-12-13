@@ -5,6 +5,7 @@ Certains sites internets vous proposent de créer une font-icône à partir de v
 
 - [icomoon](https://icomoon.io/)
 - [fontello](http://www.fontello.com/)
+- et sûrement d'autre
 
 C'est rapide et simple d'utilisation, mais dans un projet on a souvent besoin de mettre à jour notre police et la régénération de celle-ci sera vite chronophage.
 
@@ -41,9 +42,9 @@ sudo apt-get install fontforge ttfautohint
 
 **Installer FontForge sur windows :**
 
-Téléchargez et installer le logiciel [fontforge](www.lien.fr)
+Téléchargez et installer le logiciel [fontforge](http://fontforge.github.io/en-US/downloads/windows/) et [ffautohint](https://www.freetype.org/ttfautohint/#download)
 
-Puis ajoutez à vos variables d’environnements windows le chemin de l'exe.
+Puis ajoutez `C:\Program Files (x86)\FontForgeBuilds\bin` à votre PATH de vos variables d’environnements windows.
 
 ## Configuration de Grunt
 
@@ -104,7 +105,7 @@ module.exports = function (grunt) {
 
 Les fichiers SVG qui serviront à votre font doivent respecter certaines règles :
 
-- Être constitué d'un seul et unique chemin `<path>` (pas de `<rect>`, de `<cicle>` ou autre `<g>` ni même text)
+- Être constitué d'un seul et unique chemin `<path>` (pas de `<rect>`, de `<cicle>` ou autre `<g>` ni même texte)
 - votre document sur inkscape doit faire 512px * 512px (qui sera votre balise `<svg>` par la suite), vous pouvez changer cette dimension dans la config grunt avec l'option fontHeight
 - Le dessin doit prendre toutes la place de votre page et être centrée sur celle-ci.
 
