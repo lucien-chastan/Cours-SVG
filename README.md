@@ -2,7 +2,7 @@
 
 Dans ce cours nous allons voir comment utiliser Inkscape pour faire des maquettes de site web, des logos, CV et autres infographies.
 
-Nous verrons ensuite comment intégrer le SVG dans le web, comment l'animer et créer une font d'icône directement avec un task manager tel que Grunt.
+Nous verrons ensuite comment intégrer le SVG dans le web, ses subtilités par rapport au responsive, et nous générons une font-icône en automatique avec Grunt.
 
 ![infographie webinkscsape](src/accueil.png)
 
@@ -15,7 +15,6 @@ Nous verrons ensuite comment intégrer le SVG dans le web, comment l'animer et c
 
 **Le Web :**
 
-- [Créer une font à partir d'icône](Icons/README.md)
 - [Rendre le SVG responsive](Responive/README.md)
-- Quelques animations
+- [Créer une font à partir d'icône SVG](Icons/README.md)
 
