@@ -14,7 +14,7 @@ Name: Nom de votre palette
 
 Notez que les 3 premières lignes sont obligatoires et que seul le nom de la palette doit changer.
 
-Les lignes de couleur commencent après le "#" en ligne trois, elles sont constituées de trois valeurs RGB séparées par des escapes, peut suivre optionnellement le code hexa et/ou le nom de la couleur. 
+Les lignes de couleurs commencent après le "#" (ligne 3), elles sont constituées de trois valeurs RGB séparées par des espaces, peut suivre optionnellement le code hexa et/ou le nom de la couleur. 
 
 Le chargement de votre palette se fera automatiquement à l'ouverture d'Inkscape.
 
