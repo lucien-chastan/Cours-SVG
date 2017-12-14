@@ -15,6 +15,6 @@ Nous verrons ensuite comment intégrer le SVG dans le web, ses subtilités par r
 
 **Le Web :**
 
-- [Rendre le SVG responsive](Responive/README.md)
+- [Rendre le SVG responsive](Responsive/README.md)
 - [Créer une font à partir d'icône SVG](Icons/README.md)
 
