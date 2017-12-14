@@ -1,6 +1,6 @@
 # Les palettes de couleur sur Inkscape
 
-Une palette de couleur est un fichier *.gpl* placé dans le dossier `~/.config/inkscape/palettes/` pour linux et `C:\ProgramFiles\Inkscape\share\palettes\` pour Windows. Il doit être codé de cette manière :
+Une palette de couleur est un fichier *.gpl* placé dans le dossier `~/.config/inkscape/palettes/` pour linux et `C:\Program\Inkscape\share\palettes\` pour Windows. Il doit être codé de cette manière :
 
 ```text
 GIMP Palette
