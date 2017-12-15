@@ -23,6 +23,7 @@ npm init
 Installer Grunt et ses dépendances
 
 ```bash
+npm install -g grunt-cli
 npm install grunt --save-dev
 ```
 
